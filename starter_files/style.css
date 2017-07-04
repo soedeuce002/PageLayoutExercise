@@ -170,14 +170,32 @@ header {
 }
 
 #main_nav a {
-  width: 90%;
+  width: 95%;
   margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#main_content {
+  display: block;
 }
 
 #main_content div {
-  width: 100%;
+  width: 90%;
   margin: 0;
 }
+
+#sidebar_content {
+
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+#sidebar_content div {
+  margin-left: 8px;
+  width: 75%;
+  
+  }
 
 }
 
